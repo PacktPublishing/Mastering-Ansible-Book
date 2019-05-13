@@ -48,7 +48,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 Jesse Keating is an accomplished Ansible user, contributor, and presenter. He has been an active member of the Linux and open source community for over 15 years. He has firsthand experience involving a variety of IT activities, software development, and large-scale system administration. He has presented at numerous conferences and meetups, and has written many articles on a variety of topics.
 
 ## Other books by the authors
-[](https://www.packtpub.com/networking-and-servers/mastering-ansible-second-edition?utm_source=github&utm_medium=repository&utm_campaign=)
+[Mastering Ansible - Second Edition](https://prod.packtpub.com/in/networking-and-servers/mastering-ansible-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787125681)
 
 [Mastering Ansible - Third Edition](https://www.packtpub.com/virtualization-and-cloud/mastering-ansible-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789951547 )
 

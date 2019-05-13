@@ -10,15 +10,15 @@ This is the code repository for [Mastering Ansible](https://www.packtpub.com/net
 Automation is critical to success in the world of DevOps. How quickly and efficiently an application deployment can be automated, or a new infrastructure can be built up, can be the difference between a successful product or a failure. Ansible provides a simple yet powerful automation engine. Beyond the basics of Ansible lie a host of advanced features which are available to help you increase efficiency and accomplish complex orchestrations with ease.
 
 This book covers the following exciting features:
-Understand Ansible’s code and logic flow 
-Safeguard sensitive data within Ansible 
-Access and manipulate complex variable data within Ansible playbooks 
-Handle task results to manipulate change and failure definitions 
-Organize Ansible content into a simple structure 
-Craft a multi-tier rollout playbook utilizing load balancers and manipulating your monitoring system 
-Utilize advanced Ansible features to orchestrate rolling updates with almost no service disruptions 
-Troubleshoot Ansible failures to understand and resolve issues 
-Extend Ansible with custom modules, plugins, or inventory sources 
+* Understand Ansible’s code and logic flow 
+* Safeguard sensitive data within Ansible 
+* Access and manipulate complex variable data within Ansible playbooks 
+* Handle task results to manipulate change and failure definitions 
+* Organize Ansible content into a simple structure 
+* Craft a multi-tier rollout playbook utilizing load balancers and manipulating your monitoring system 
+* Utilize advanced Ansible features to orchestrate rolling updates with almost no service disruptions 
+* Troubleshoot Ansible failures to understand and resolve issues 
+* Extend Ansible with custom modules, plugins, or inventory sources 
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/178439548X) today!
 

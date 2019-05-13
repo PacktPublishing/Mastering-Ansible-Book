@@ -1,0 +1,9 @@
+---
+- name: demo the template
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - name: debug the template
+      debug:
+        msg: "{{ answers | replace('no', 'yes') | lower }}"

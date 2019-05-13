@@ -1,0 +1,8 @@
+---
+- name: variable introspection demo
+  hosts: localhost
+
+  tasks:
+    - name: show a complex hash
+      debug:
+        var: ansible_default_ipv4.flags[-1]

@@ -1,0 +1,11 @@
+---
+- name: error handling
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - name: discover iscsi sessions
+      command: /sbin/iscsiadm -m sessions
+      register: sessions
+      failed_when: sessions.rc != 0 and not sessions.stderr | search('No active sessions')
+      changed_when: false

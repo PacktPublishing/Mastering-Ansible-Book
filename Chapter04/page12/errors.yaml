@@ -1,0 +1,8 @@
+---
+- name: error handling
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - name: run frobitz
+      script: files/frobitz creates=/srv/whiskey/tango

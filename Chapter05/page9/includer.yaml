@@ -1,0 +1,11 @@
+---
+- name: task inclusion
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - include: more-tasks.yaml
+      when: item | bool
+      a_list:
+        - true
+        - false

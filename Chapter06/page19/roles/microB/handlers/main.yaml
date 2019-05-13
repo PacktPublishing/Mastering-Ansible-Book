@@ -1,0 +1,5 @@
+---
+- name: restart microB
+  debug:
+    msg: "microB is restarting"
+  when: upgrade | default(false) | bool

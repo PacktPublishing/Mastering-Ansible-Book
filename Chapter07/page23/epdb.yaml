@@ -1,0 +1,11 @@
+---
+- name: remote code debug
+  hosts: debug.example.com
+  gather_facts: false
+
+  tasks:
+    - name: a remote module execution
+      service:
+        name: dnsmasq
+        state: stopped
+        enabled: no

@@ -1,0 +1,25 @@
+---
+- name: any errors fatal
+  hosts: failtest
+  gather_facts: false
+  max_fail_percentage: 0
+  force_handlers: true
+
+  tasks:
+    - name: change a host
+      debug:
+        msg: "I am last"
+      when: inventory_hostname in play_hosts[-2:]
+      changed_when: true
+      failed_when: inventory_hostname == play_hosts[-2]
+      notify: critical handler
+
+    - name: never ran
+      debug:
+        msg: "I should never be ran"
+      when: inventory_hostname == play_hosts[-1]
+
+  handlers:
+    - name: critical handler
+      debug:
+        msg: "I really need to run"
